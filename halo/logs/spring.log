@@ -132,3 +132,5 @@ run.halo.app.exception.BadRequestException: 用户名或者密码不正确
 2022-10-14 07:29:58.048  WARN 17378 --- [qtp1917082298-1583] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
 2022-10-14 07:30:27.442  WARN 17378 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
 2022-10-14 07:30:27.443  WARN 17378 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2022-10-14 11:47:18.042  INFO 17378 --- [qtp1917082298-1535] run.halo.app.utils.FileUtils             : Deleting [/home/halo/.halo/templates/themes/butterfly]
+2022-10-14 11:47:18.105  INFO 17378 --- [qtp1917082298-1535] run.halo.app.utils.FileUtils             : Deleted [/home/halo/.halo/templates/themes/butterfly] successfully
