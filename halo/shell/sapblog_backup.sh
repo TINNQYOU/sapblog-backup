@@ -9,4 +9,4 @@ git add .
 git commit -m "[$(date "+%Y-%m-%d %H:%M:%S")] 博客数据备份"
 git push
 echo "[$(date "+%Y-%m-%d %H:%M:%S")] 推送到GitHub完成"
-
+echo "<======================================================>"
