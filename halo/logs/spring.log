@@ -30,3 +30,4 @@
 2022-10-18 10:31:17.093  WARN 17378 --- [qtp1917082298-5276] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
 2022-10-18 10:31:17.094 ERROR 17378 --- [qtp1917082298-5276] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [ebe1adf9cd0f4607b964a690675a0848]
 2022-10-18 10:31:27.442  WARN 17378 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
+2022-10-18 18:59:32.214  WARN 17378 --- [qtp1917082298-5276] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
