@@ -1,389 +1,102 @@
-2022-10-20 01:16:35.316  WARN 17378 --- [qtp1917082298-5448] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-10-20 02:03:34.703  INFO 17378 --- [SpringApplicationShutdownHook] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@475835b1{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
-2022-10-20 02:03:34.713  INFO 17378 --- [SpringApplicationShutdownHook] org.eclipse.jetty.server.session         : node0 Stopped scavenging
-2022-10-20 02:03:34.740  INFO 17378 --- [SpringApplicationShutdownHook] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-10-20 02:03:34.747  INFO 17378 --- [SpringApplicationShutdownHook] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@237b2852{application,/,[file:///tmp/jetty-docbase.8090.14095671397336662875/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],STOPPED}
-2022-10-20 02:03:34.904  INFO 17378 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-10-20 02:03:34.971  INFO 17378 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-10-20 02:03:35.003  INFO 17378 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-10-20 11:03:40.719  INFO 113506 --- [main] run.halo.app.Application                 : Starting Application v1.5.4 using Java 11.0.16 on 157-7-195-71 with PID 113506 (/home/halo/app/halo.jar started by halo in /)
-2022-10-20 11:03:40.737  INFO 113506 --- [main] run.halo.app.Application                 : No active profile set, falling back to 1 default profile: "default"
-2022-10-20 11:03:45.284  INFO 113506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-10-20 11:03:45.285  INFO 113506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-10-20 11:03:46.212  INFO 113506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 901 ms. Found 24 JPA repository interfaces.
-2022-10-20 11:03:49.287  INFO 113506 --- [main] org.eclipse.jetty.util.log               : Logging initialized @13415ms to org.eclipse.jetty.util.log.Slf4jLog
-2022-10-20 11:03:49.753  INFO 113506 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8090
-2022-10-20 11:03:49.768  INFO 113506 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 11.0.16+8-post-Ubuntu-0ubuntu122.04
-2022-10-20 11:03:49.846  INFO 113506 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2022-10-20 11:03:49.847  INFO 113506 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8680 ms
-2022-10-20 11:03:51.380  INFO 113506 --- [main] run.halo.app.config.HaloConfiguration    : Halo cache store load impl : [class run.halo.app.cache.InMemoryCacheStore]
-2022-10-20 11:03:53.564  INFO 113506 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-10-20 11:03:53.751  INFO 113506 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.33
-2022-10-20 11:03:53.888  INFO 113506 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-10-20 11:03:54.281  INFO 113506 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-10-20 11:03:55.088  INFO 113506 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-10-20 11:03:55.303  INFO 113506 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-10-20 11:03:58.689  INFO 113506 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-10-20 11:03:58.715  INFO 113506 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-10-20 11:04:01.019  INFO 113506 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2022-10-20 11:04:01.020  INFO 113506 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2022-10-20 11:04:01.024  INFO 113506 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
-2022-10-20 11:04:01.059  INFO 113506 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@3a38e4dc{application,/,[file:///tmp/jetty-docbase.8090.7847095855624449425/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
-2022-10-20 11:04:01.060  INFO 113506 --- [main] org.eclipse.jetty.server.Server          : Started @25191ms
-2022-10-20 11:04:07.599  INFO 113506 --- [main] run.halo.app.handler.file.FileHandlers   : Registered 9 file handler(s)
-2022-10-20 11:04:11.296  INFO 113506 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/api/admin/actuator'
-2022-10-20 11:04:11.433  INFO 113506 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-20 11:04:11.434  INFO 113506 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-20 11:04:11.439  INFO 113506 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2022-10-20 11:04:11.496  INFO 113506 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@235f4c10{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
-2022-10-20 11:04:11.498  INFO 113506 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8090 (http/1.1) with context path '/'
-2022-10-20 11:04:11.553  INFO 113506 --- [main] run.halo.app.Application                 : Started Application in 32.996 seconds (JVM running for 35.684)
-2022-10-20 11:04:11.557  INFO 113506 --- [main] run.halo.app.listener.StartedListener    : Starting migrate database...
-2022-10-20 11:04:11.726  INFO 113506 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.15.0 by Redgate
-2022-10-20 11:04:11.729  INFO 113506 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:h2:file:~/.halo/db/halo (H2 1.4)
-2022-10-20 11:04:11.853  INFO 113506 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Repair of failed migration in Schema History table "PUBLIC"."flyway_schema_history" not necessary. No failed migration detected.
-2022-10-20 11:04:11.899  INFO 113506 --- [main] o.f.core.internal.command.DbRepair       : Successfully repaired schema history table "PUBLIC"."flyway_schema_history" (execution time 00:00.102s).
-2022-10-20 11:04:11.910  INFO 113506 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.15.0 by Redgate
-2022-10-20 11:04:11.935  INFO 113506 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 6 migrations (execution time 00:00.015s)
-2022-10-20 11:04:12.045  INFO 113506 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 6
-2022-10-20 11:04:12.062  INFO 113506 --- [main] o.f.core.internal.command.DbMigrate      : Schema "PUBLIC" is up to date. No migration necessary.
-2022-10-20 11:04:12.069  INFO 113506 --- [main] run.halo.app.listener.StartedListener    : Migrate database succeed.
-2022-10-20 11:04:12.579  INFO 113506 --- [main] run.halo.app.listener.StartedListener    : [94mHalo started at         https://www.sapblogs.link[0;39m
-2022-10-20 11:04:12.580  INFO 113506 --- [main] run.halo.app.listener.StartedListener    : [94mHalo admin started at   https://www.sapblogs.link/admin[0;39m
-2022-10-20 11:04:12.580  INFO 113506 --- [main] run.halo.app.listener.StartedListener    : [93mHalo has started successfully![0;39m
-2022-10-20 11:17:38.118  WARN 113506 --- [qtp1946111918-17] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.118  WARN 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.126 ERROR 113506 --- [qtp1946111918-17] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.126 ERROR 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.196  WARN 113506 --- [qtp1946111918-18] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.196  WARN 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.196 ERROR 113506 --- [qtp1946111918-18] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.196 ERROR 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.228  WARN 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.228  WARN 113506 --- [qtp1946111918-17] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.146.74.206]
-2022-10-20 11:17:38.230 ERROR 113506 --- [qtp1946111918-21] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.230 ERROR 113506 --- [qtp1946111918-17] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [abaf19541c30457b871d6cdb7799220a]
-2022-10-20 11:17:38.323 ERROR 113506 --- [qtp1946111918-18] r.h.app.core.ControllerExceptionHandler  : Captured an exception:
-
-run.halo.app.exception.BadRequestException: 登录状态已失效，请重新登录
-	at run.halo.app.service.impl.AdminServiceImpl.lambda$refreshToken$5(AdminServiceImpl.java:276) ~[classes!/:1.5.4]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
-	at run.halo.app.service.impl.AdminServiceImpl.refreshToken(AdminServiceImpl.java:275) ~[classes!/:1.5.4]
-	at run.halo.app.controller.admin.api.AdminController.refresh(AdminController.java:100) ~[classes!/:1.5.4]
-	at run.halo.app.controller.admin.api.AdminController$$FastClassBySpringCGLIB$$4785b262.invoke(<generated>) ~[classes!/:1.5.4]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.core.ControllerLogAop.controller(ControllerLogAop.java:48) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.cache.lock.CacheLockInterceptor.interceptCacheLock(CacheLockInterceptor.java:71) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.controller.admin.api.AdminController$$EnhancerBySpringCGLIB$$adea12b7.refresh(<generated>) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517) ~[jakarta.servlet-api-4.0.4.jar!/:4.0.4]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584) ~[jakarta.servlet-api-4.0.4.jar!/:4.0.4]
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:230) ~[websocket-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at run.halo.app.filter.CorsFilter.doFilter(CorsFilter.java:53) ~[classes!/:1.5.4]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.12.jar!/:2.5.12]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at run.halo.app.filter.LogFilter.doFilterInternal(LogFilter.java:40) ~[classes!/:1.5.4]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600) ~[jetty-security-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
-
-2022-10-20 11:17:51.381  WARN 113506 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
-2022-10-20 11:17:51.381  WARN 113506 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
-2022-10-20 11:17:51.382  WARN 113506 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
-2022-10-20 15:49:50.079  WARN 113506 --- [qtp1946111918-14] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-10-20 18:17:02.365  WARN 113506 --- [qtp1946111918-225] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'keyword' for method parameter type String is not present]
-2022-10-20 21:41:14.654  INFO 113506 --- [SpringApplicationShutdownHook] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@235f4c10{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
-2022-10-20 21:41:14.677  INFO 113506 --- [SpringApplicationShutdownHook] org.eclipse.jetty.server.session         : node0 Stopped scavenging
-2022-10-20 21:41:14.771  INFO 113506 --- [SpringApplicationShutdownHook] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-10-20 21:41:14.785  INFO 113506 --- [SpringApplicationShutdownHook] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@3a38e4dc{application,/,[file:///tmp/jetty-docbase.8090.7847095855624449425/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],STOPPED}
-2022-10-20 21:41:14.906  INFO 113506 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-10-20 21:41:14.958  INFO 113506 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-10-20 21:41:14.980  INFO 113506 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-10-20 21:41:44.019  INFO 794 --- [main] run.halo.app.Application                 : Starting Application v1.5.4 using Java 11.0.16 on 157-7-195-71 with PID 794 (/home/halo/app/halo.jar started by halo in /)
-2022-10-20 21:41:44.035  INFO 794 --- [main] run.halo.app.Application                 : No active profile set, falling back to 1 default profile: "default"
-2022-10-20 21:41:49.238  INFO 794 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-10-20 21:41:49.239  INFO 794 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-10-20 21:41:50.190  INFO 794 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 912 ms. Found 24 JPA repository interfaces.
-2022-10-20 21:41:53.860  INFO 794 --- [main] org.eclipse.jetty.util.log               : Logging initialized @18498ms to org.eclipse.jetty.util.log.Slf4jLog
-2022-10-20 21:41:54.509  INFO 794 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8090
-2022-10-20 21:41:54.547  INFO 794 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 11.0.16+8-post-Ubuntu-0ubuntu122.04
-2022-10-20 21:41:54.702  INFO 794 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
-2022-10-20 21:41:54.705  INFO 794 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10327 ms
-2022-10-20 21:41:57.585  INFO 794 --- [main] run.halo.app.config.HaloConfiguration    : Halo cache store load impl : [class run.halo.app.cache.InMemoryCacheStore]
-2022-10-20 21:41:59.736  INFO 794 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-10-20 21:41:59.950  INFO 794 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.33
-2022-10-20 21:42:00.088  INFO 794 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-10-20 21:42:00.441  INFO 794 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-10-20 21:42:01.292  INFO 794 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-10-20 21:42:01.480  INFO 794 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2022-10-20 21:42:04.142  INFO 794 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-10-20 21:42:04.167  INFO 794 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-10-20 21:42:06.250  INFO 794 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
-2022-10-20 21:42:06.250  INFO 794 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
-2022-10-20 21:42:06.255  INFO 794 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
-2022-10-20 21:42:06.296  INFO 794 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@439f2d87{application,/,[file:///tmp/jetty-docbase.8090.14563476161503773345/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
-2022-10-20 21:42:06.297  INFO 794 --- [main] org.eclipse.jetty.server.Server          : Started @30938ms
-2022-10-20 21:42:12.627  INFO 794 --- [main] run.halo.app.handler.file.FileHandlers   : Registered 9 file handler(s)
-2022-10-20 21:42:15.809  INFO 794 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/api/admin/actuator'
-2022-10-20 21:42:15.944  INFO 794 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-20 21:42:15.944  INFO 794 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-20 21:42:15.948  INFO 794 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2022-10-20 21:42:15.982  INFO 794 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4fad94a7{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
-2022-10-20 21:42:15.985  INFO 794 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8090 (http/1.1) with context path '/'
-2022-10-20 21:42:16.029  INFO 794 --- [main] run.halo.app.Application                 : Started Application in 35.843 seconds (JVM running for 40.67)
-2022-10-20 21:42:16.031  INFO 794 --- [main] run.halo.app.listener.StartedListener    : Starting migrate database...
-2022-10-20 21:42:16.192  INFO 794 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.15.0 by Redgate
-2022-10-20 21:42:16.194  INFO 794 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:h2:file:~/.halo/db/halo (H2 1.4)
-2022-10-20 21:42:16.275  INFO 794 --- [main] o.f.c.i.s.JdbcTableSchemaHistory         : Repair of failed migration in Schema History table "PUBLIC"."flyway_schema_history" not necessary. No failed migration detected.
-2022-10-20 21:42:16.309  INFO 794 --- [main] o.f.core.internal.command.DbRepair       : Successfully repaired schema history table "PUBLIC"."flyway_schema_history" (execution time 00:00.066s).
-2022-10-20 21:42:16.320  INFO 794 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.15.0 by Redgate
-2022-10-20 21:42:16.344  INFO 794 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 6 migrations (execution time 00:00.015s)
-2022-10-20 21:42:16.376  INFO 794 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 6
-2022-10-20 21:42:16.382  INFO 794 --- [main] o.f.core.internal.command.DbMigrate      : Schema "PUBLIC" is up to date. No migration necessary.
-2022-10-20 21:42:16.385  INFO 794 --- [main] run.halo.app.listener.StartedListener    : Migrate database succeed.
-2022-10-20 21:42:16.386  INFO 794 --- [main] run.halo.app.listener.StartedListener    : Created backup directory: [/tmp/halo-backup]
-2022-10-20 21:42:16.386  INFO 794 --- [main] run.halo.app.listener.StartedListener    : Created data export directory: [/tmp/halo-data-export]
-2022-10-20 21:42:16.835  INFO 794 --- [main] run.halo.app.listener.StartedListener    : [94mHalo started at         https://www.sapblogs.link[0;39m
-2022-10-20 21:42:16.836  INFO 794 --- [main] run.halo.app.listener.StartedListener    : [94mHalo admin started at   https://www.sapblogs.link/admin[0;39m
-2022-10-20 21:42:16.836  INFO 794 --- [main] run.halo.app.listener.StartedListener    : [93mHalo has started successfully![0;39m
-2022-10-20 21:45:06.217  WARN 794 --- [qtp1197721383-17] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.220  WARN 794 --- [qtp1197721383-19] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.223  WARN 794 --- [qtp1197721383-14] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.220  WARN 794 --- [qtp1197721383-53] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.224 ERROR 794 --- [qtp1197721383-19] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.226 ERROR 794 --- [qtp1197721383-53] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.224  WARN 794 --- [qtp1197721383-51] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.209  WARN 794 --- [qtp1197721383-50] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [58.156.170.125]
-2022-10-20 21:45:06.224 ERROR 794 --- [qtp1197721383-17] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.225 ERROR 794 --- [qtp1197721383-14] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.226 ERROR 794 --- [qtp1197721383-51] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.233 ERROR 794 --- [qtp1197721383-50] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [25a1761a17414fc78ce3ba6411b29869]
-2022-10-20 21:45:06.347 ERROR 794 --- [qtp1197721383-21] r.h.app.core.ControllerExceptionHandler  : Captured an exception:
-
-run.halo.app.exception.BadRequestException: 登录状态已失效，请重新登录
-	at run.halo.app.service.impl.AdminServiceImpl.lambda$refreshToken$5(AdminServiceImpl.java:276) ~[classes!/:1.5.4]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
-	at run.halo.app.service.impl.AdminServiceImpl.refreshToken(AdminServiceImpl.java:275) ~[classes!/:1.5.4]
-	at run.halo.app.controller.admin.api.AdminController.refresh(AdminController.java:100) ~[classes!/:1.5.4]
-	at run.halo.app.controller.admin.api.AdminController$$FastClassBySpringCGLIB$$4785b262.invoke(<generated>) ~[classes!/:1.5.4]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.core.ControllerLogAop.controller(ControllerLogAop.java:48) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.cache.lock.CacheLockInterceptor.interceptCacheLock(CacheLockInterceptor.java:71) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.18.jar!/:5.3.18]
-	at run.halo.app.controller.admin.api.AdminController$$EnhancerBySpringCGLIB$$42027cfc.refresh(<generated>) ~[classes!/:1.5.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517) ~[jakarta.servlet-api-4.0.4.jar!/:4.0.4]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.18.jar!/:5.3.18]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584) ~[jakarta.servlet-api-4.0.4.jar!/:4.0.4]
-	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1631) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:230) ~[websocket-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:102) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at run.halo.app.filter.CorsFilter.doFilter(CorsFilter.java:53) ~[classes!/:1.5.4]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.12.jar!/:2.5.12]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at run.halo.app.filter.LogFilter.doFilterInternal(LogFilter.java:40) ~[classes!/:1.5.4]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.18.jar!/:5.3.18]
-	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600) ~[jetty-security-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.45.v20220203.jar!/:9.4.45.v20220203]
-	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
-
-2022-10-20 21:45:57.585  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
-2022-10-20 21:45:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
-2022-10-20 21:45:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2022-10-21 07:13:34.752  WARN 794 --- [qtp1197721383-21] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-21 07:13:35.115  WARN 794 --- [qtp1197721383-20] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-21 07:13:35.776  WARN 794 --- [qtp1197721383-20] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-21 07:13:36.080  WARN 794 --- [qtp1197721383-21] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-21 15:19:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
+2022-10-21 15:19:57.587  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2022-10-21 15:39:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public void run.halo.app.controller.content.api.PostController.like(java.lang.Integer):20:106.153.186.220] has been expired
+2022-10-21 17:03:39.703  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE04, extension=png, relativePath=upload/2022/10/TABLE04.png, basePath=/home/halo/.halo, fullName=TABLE04.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE04.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.728  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE04.png] to directory: [upload/2022/10/TABLE04.png]
+2022-10-21 17:03:39.690  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE01, extension=png, relativePath=upload/2022/10/TABLE01.png, basePath=/home/halo/.halo, fullName=TABLE01.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE01.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.731  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE01.png] to directory: [upload/2022/10/TABLE01.png]
+2022-10-21 17:03:39.702  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE03, extension=png, relativePath=upload/2022/10/TABLE03.png, basePath=/home/halo/.halo, fullName=TABLE03.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE03.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.731  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE03.png] to directory: [upload/2022/10/TABLE03.png]
+2022-10-21 17:03:39.684  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE02, extension=png, relativePath=upload/2022/10/TABLE02.png, basePath=/home/halo/.halo, fullName=TABLE02.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE02.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.732  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE02.png] to directory: [upload/2022/10/TABLE02.png]
+2022-10-21 17:03:39.691  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE05, extension=png, relativePath=upload/2022/10/TABLE05.png, basePath=/home/halo/.halo, fullName=TABLE05.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE05.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.734  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE05.png] to directory: [upload/2022/10/TABLE05.png]
+2022-10-21 17:03:39.691  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE06, extension=png, relativePath=upload/2022/10/TABLE06.png, basePath=/home/halo/.halo, fullName=TABLE06.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE06.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.736  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE06.png] to directory: [upload/2022/10/TABLE06.png]
+2022-10-21 17:03:39.850  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE05-thumbnail, extension=png, relativePath=upload/2022/10/TABLE05-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE05-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE05-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.854  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE02-thumbnail, extension=png, relativePath=upload/2022/10/TABLE02-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE02-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE02-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.855  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE04-thumbnail, extension=png, relativePath=upload/2022/10/TABLE04-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE04-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE04-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.855  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE03-thumbnail, extension=png, relativePath=upload/2022/10/TABLE03-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE03-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE03-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.856  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE01-thumbnail, extension=png, relativePath=upload/2022/10/TABLE01-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE01-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE01-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:39.858  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE06-thumbnail, extension=png, relativePath=upload/2022/10/TABLE06-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE06-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE06-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:40.233  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE06-thumbnail.png]
+2022-10-21 17:03:40.240  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE06.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE06.png] successfully
+2022-10-21 17:03:40.244  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE03-thumbnail.png]
+2022-10-21 17:03:40.245  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE03.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE03.png] successfully
+2022-10-21 17:03:40.237  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE01-thumbnail.png]
+2022-10-21 17:03:40.239  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE04-thumbnail.png]
+2022-10-21 17:03:40.245  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE02-thumbnail.png]
+2022-10-21 17:03:40.258  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE01.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE01.png] successfully
+2022-10-21 17:03:40.255  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE05-thumbnail.png]
+2022-10-21 17:03:40.258  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE02.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE02.png] successfully
+2022-10-21 17:03:40.258  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE04.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE04.png] successfully
+2022-10-21 17:03:40.271  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE05.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE05.png] successfully
+2022-10-21 17:03:40.283  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE07, extension=png, relativePath=upload/2022/10/TABLE07.png, basePath=/home/halo/.halo, fullName=TABLE07.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE07.png, subPath=upload/2022/10)]
+2022-10-21 17:03:40.288  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE07.png] to directory: [upload/2022/10/TABLE07.png]
+2022-10-21 17:03:40.292  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE07-thumbnail, extension=png, relativePath=upload/2022/10/TABLE07-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE07-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE07-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:40.313  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE07-thumbnail.png]
+2022-10-21 17:03:40.314  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE07.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE07.png] successfully
+2022-10-21 17:03:58.477  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE010, extension=png, relativePath=upload/2022/10/TABLE010.png, basePath=/home/halo/.halo, fullName=TABLE010.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE010.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.477  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE010.png] to directory: [upload/2022/10/TABLE010.png]
+2022-10-21 17:03:58.479  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE010-thumbnail, extension=png, relativePath=upload/2022/10/TABLE010-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE010-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE010-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.481  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE09, extension=png, relativePath=upload/2022/10/TABLE09.png, basePath=/home/halo/.halo, fullName=TABLE09.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE09.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.485  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE09.png] to directory: [upload/2022/10/TABLE09.png]
+2022-10-21 17:03:58.477  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE012, extension=png, relativePath=upload/2022/10/TABLE012.png, basePath=/home/halo/.halo, fullName=TABLE012.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE012.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.482  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE08, extension=png, relativePath=upload/2022/10/TABLE08.png, basePath=/home/halo/.halo, fullName=TABLE08.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE08.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.467  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE011, extension=png, relativePath=upload/2022/10/TABLE011.png, basePath=/home/halo/.halo, fullName=TABLE011.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE011.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.481  INFO 794 --- [qtp1197721383-721] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE013, extension=png, relativePath=upload/2022/10/TABLE013.png, basePath=/home/halo/.halo, fullName=TABLE013.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE013.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.488  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE012.png] to directory: [upload/2022/10/TABLE012.png]
+2022-10-21 17:03:58.488  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE08.png] to directory: [upload/2022/10/TABLE08.png]
+2022-10-21 17:03:58.488  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE011.png] to directory: [upload/2022/10/TABLE011.png]
+2022-10-21 17:03:58.488  INFO 794 --- [qtp1197721383-721] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE013.png] to directory: [upload/2022/10/TABLE013.png]
+2022-10-21 17:03:58.491  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE08-thumbnail, extension=png, relativePath=upload/2022/10/TABLE08-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE08-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE08-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.491  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE012-thumbnail, extension=png, relativePath=upload/2022/10/TABLE012-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE012-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE012-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.492  INFO 794 --- [qtp1197721383-721] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE013-thumbnail, extension=png, relativePath=upload/2022/10/TABLE013-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE013-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE013-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.491  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE09-thumbnail, extension=png, relativePath=upload/2022/10/TABLE09-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE09-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE09-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.495  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE011-thumbnail, extension=png, relativePath=upload/2022/10/TABLE011-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE011-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE011-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.665  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE010-thumbnail.png]
+2022-10-21 17:03:58.666  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE010.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE010.png] successfully
+2022-10-21 17:03:58.694  INFO 794 --- [qtp1197721383-721] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE013-thumbnail.png]
+2022-10-21 17:03:58.694  INFO 794 --- [qtp1197721383-721] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE013.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE013.png] successfully
+2022-10-21 17:03:58.698  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE011-thumbnail.png]
+2022-10-21 17:03:58.699  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE011.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE011.png] successfully
+2022-10-21 17:03:58.714  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE09-thumbnail.png]
+2022-10-21 17:03:58.715  INFO 794 --- [qtp1197721383-615] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE09.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE09.png] successfully
+2022-10-21 17:03:58.715  INFO 794 --- [qtp1197721383-629] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE015, extension=png, relativePath=upload/2022/10/TABLE015.png, basePath=/home/halo/.halo, fullName=TABLE015.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE015.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.715  INFO 794 --- [qtp1197721383-629] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE015.png] to directory: [upload/2022/10/TABLE015.png]
+2022-10-21 17:03:58.717  INFO 794 --- [qtp1197721383-629] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE015-thumbnail, extension=png, relativePath=upload/2022/10/TABLE015-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE015-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE015-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.724  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE08-thumbnail.png]
+2022-10-21 17:03:58.730  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE08.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE08.png] successfully
+2022-10-21 17:03:58.735  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE016, extension=png, relativePath=upload/2022/10/TABLE016.png, basePath=/home/halo/.halo, fullName=TABLE016.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE016.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.735  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE016.png] to directory: [upload/2022/10/TABLE016.png]
+2022-10-21 17:03:58.729  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE012-thumbnail.png]
+2022-10-21 17:03:58.736  INFO 794 --- [qtp1197721383-409] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE012.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE012.png] successfully
+2022-10-21 17:03:58.744  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE017, extension=png, relativePath=upload/2022/10/TABLE017.png, basePath=/home/halo/.halo, fullName=TABLE017.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE017.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.745  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE017.png] to directory: [upload/2022/10/TABLE017.png]
+2022-10-21 17:03:58.744  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE018, extension=png, relativePath=upload/2022/10/TABLE018.png, basePath=/home/halo/.halo, fullName=TABLE018.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE018.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.746  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE018.png] to directory: [upload/2022/10/TABLE018.png]
+2022-10-21 17:03:58.746  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE017-thumbnail, extension=png, relativePath=upload/2022/10/TABLE017-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE017-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE017-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.747  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE016-thumbnail, extension=png, relativePath=upload/2022/10/TABLE016-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE016-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE016-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.748  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE018-thumbnail, extension=png, relativePath=upload/2022/10/TABLE018-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE018-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE018-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.784  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE020, extension=png, relativePath=upload/2022/10/TABLE020.png, basePath=/home/halo/.halo, fullName=TABLE020.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE020.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.784  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE020.png] to directory: [upload/2022/10/TABLE020.png]
+2022-10-21 17:03:58.786  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE019, extension=png, relativePath=upload/2022/10/TABLE019.png, basePath=/home/halo/.halo, fullName=TABLE019.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE019.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.787  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploading file: [TABLE019.png] to directory: [upload/2022/10/TABLE019.png]
+2022-10-21 17:03:58.789  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE019-thumbnail, extension=png, relativePath=upload/2022/10/TABLE019-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE019-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE019-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.818  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.FilePathDescriptor  : FilePathDescriptor: [FilePathDescriptor(name=TABLE020-thumbnail, extension=png, relativePath=upload/2022/10/TABLE020-thumbnail.png, basePath=/home/halo/.halo, fullName=TABLE020-thumbnail.png, fullPath=/home/halo/.halo/upload/2022/10/TABLE020-thumbnail.png, subPath=upload/2022/10)]
+2022-10-21 17:03:58.860  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE017-thumbnail.png]
+2022-10-21 17:03:58.861  INFO 794 --- [qtp1197721383-637] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE017.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE017.png] successfully
+2022-10-21 17:03:59.155  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE016-thumbnail.png]
+2022-10-21 17:03:59.165  INFO 794 --- [qtp1197721383-720] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE016.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE016.png] successfully
+2022-10-21 17:03:59.169  INFO 794 --- [qtp1197721383-629] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE015-thumbnail.png]
+2022-10-21 17:03:59.173  INFO 794 --- [qtp1197721383-629] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE015.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE015.png] successfully
+2022-10-21 17:03:59.179  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE019-thumbnail.png]
+2022-10-21 17:03:59.185  INFO 794 --- [qtp1197721383-701] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE019.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE019.png] successfully
+2022-10-21 17:03:59.188  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE020-thumbnail.png]
+2022-10-21 17:03:59.189  INFO 794 --- [qtp1197721383-700] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE020.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE020.png] successfully
+2022-10-21 17:03:59.191  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Generated thumbnail image, and wrote the thumbnail to [/home/halo/.halo/upload/2022/10/TABLE018-thumbnail.png]
+2022-10-21 17:03:59.192  INFO 794 --- [qtp1197721383-663] r.h.app.handler.file.LocalFileHandler    : Uploaded file: [TABLE018.png] to directory: [/home/halo/.halo/upload/2022/10/TABLE018.png] successfully
