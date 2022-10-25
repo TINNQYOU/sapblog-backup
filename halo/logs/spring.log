@@ -1,3 +1,4 @@
-2022-10-25 02:16:46.968  WARN 794 --- [qtp1197721383-3235] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-10-25 03:21:56.340  WARN 794 --- [qtp1197721383-3231] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-10-25 03:21:59.444  WARN 794 --- [qtp1197721383-3235] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-26 00:14:40.498  WARN 794 --- [qtp1197721383-4265] org.eclipse.jetty.server.Request         : org.eclipse.jetty.util.Utf8Appendable$NotUtf8Exception: Not valid UTF8! byte 30 in state 2
+2022-10-26 00:14:45.476  WARN 794 --- [qtp1197721383-4265] org.eclipse.jetty.server.Request         : org.eclipse.jetty.util.Utf8Appendable$NotUtf8Exception: Not valid UTF8! byte 30 in state 2
+2022-10-26 05:03:38.720  WARN 794 --- [qtp1197721383-1433] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-10-26 05:03:40.980  WARN 794 --- [qtp1197721383-4265] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
