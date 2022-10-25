@@ -1,7 +1,8 @@
 #!/bin/bash
 gitpath=/home/halo/github/sapblog-backup
 changeslog=/home/halo/logs/changeslistcount
-rsync -anv --delete /home/halo/.halo/ /home/halo/github/sapblog-backup/halo/ > $changeslog
+rsync -anv --delete /home/halo/.halo/ /home/halo/github/sapblog-backup/halo/ >> $changeslog
+echo "<======================================================>" >> $changeslog
 count=`wc -l $changeslog | awk '{print $1}'`
 if [ $count -eq 4 ] 
 then
