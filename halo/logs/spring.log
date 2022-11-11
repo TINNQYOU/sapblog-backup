@@ -1,1 +1,7 @@
 2022-11-11 02:51:34.307  WARN 794 --- [qtp1197721383-18344] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-11 14:37:57.588  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2022-11-11 14:37:57.591  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
+2022-11-11 14:46:14.173  WARN 794 --- [qtp1197721383-19865] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-11 15:36:43.105  WARN 794 --- [qtp1197721383-15452] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-11 17:44:29.826  WARN 794 --- [qtp1197721383-11484] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-11 23:42:39.322  WARN 794 --- [qtp1197721383-20035] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [static../.git/config]"
