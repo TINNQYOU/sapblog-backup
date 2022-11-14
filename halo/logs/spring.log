@@ -166,3 +166,6 @@
 2022-11-14 09:25:05.060  WARN 794 --- [qtp1197721383-22472] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
 2022-11-14 11:13:53.189  WARN 794 --- [qtp1197721383-22472] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
 2022-11-14 11:14:33.250  WARN 794 --- [qtp1197721383-22472] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-14 15:00:00.005  INFO 794 --- [scheduling-1] r.h.app.task.RecycledPostCleaningTask    : Start cleaning recycled posts
+2022-11-14 15:00:00.198  INFO 794 --- [scheduling-1] r.h.app.task.RecycledPostCleaningTask    : Recycled posts cleaning has been completed, 2 posts has been permanently deleted
+2022-11-14 18:29:03.951  WARN 794 --- [qtp1197721383-22472] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
