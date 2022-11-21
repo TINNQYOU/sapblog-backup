@@ -1,5 +1,9 @@
-2022-11-20 06:07:48.352  WARN 794 --- [qtp1197721383-24877] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-11-20 12:06:40.509  WARN 794 --- [qtp1197721383-25045] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-11-20 15:19:57.592  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.refresh.token.11d59693377543a08d0eeff1e6398a1a] has been expired
-2022-11-20 20:29:45.303  WARN 794 --- [qtp1197721383-24117] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-11-20 22:48:57.585  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.refresh.token.dcebc35d436042b2b4e886801e7ee91e] has been expired
+2022-11-21 09:42:34.563  WARN 794 --- [qtp1197721383-24117] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:54:34.527  WARN 794 --- [qtp1197721383-25045] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:54:35.230  WARN 794 --- [qtp1197721383-25045] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:54:36.751  WARN 794 --- [qtp1197721383-25045] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:54:37.714  WARN 794 --- [qtp1197721383-25045] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:56:24.208  WARN 794 --- [qtp1197721383-24877] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:56:24.932  WARN 794 --- [qtp1197721383-23568] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:56:26.564  WARN 794 --- [qtp1197721383-23568] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-21 09:56:27.516  WARN 794 --- [qtp1197721383-24877] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
