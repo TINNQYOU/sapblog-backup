@@ -1,2 +1,7 @@
-2022-11-24 02:13:41.020  WARN 794 --- [qtp1197721383-32139] o.s.w.s.r.ResourceHttpRequestHandler     : "Path with "WEB-INF" or "META-INF": [s/1373e2539313e273e2735313/_/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties]"
-2022-11-24 02:14:54.059  WARN 794 --- [qtp1197721383-32144] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 07:15:00.395  WARN 794 --- [qtp1197721383-32144] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 07:15:14.630  WARN 794 --- [qtp1197721383-32144] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 07:40:50.715  WARN 794 --- [qtp1197721383-27372] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 07:57:27.165  WARN 794 --- [qtp1197721383-27372] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 11:36:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public void run.halo.app.controller.content.api.PostController.like(java.lang.Integer):20:106.153.186.220] has been expired
+2022-11-25 13:33:12.141  WARN 794 --- [qtp1197721383-32731] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-25 15:31:56.413  WARN 794 --- [qtp1197721383-32144] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
