@@ -3,3 +3,4 @@
 2022-11-28 10:15:57.586  WARN 794 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public void run.halo.app.controller.content.api.PostController.like(java.lang.Integer):4:106.153.186.220] has been expired
 2022-11-28 12:36:54.846  WARN 794 --- [qtp1197721383-32734] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
 2022-11-28 13:16:42.426  WARN 794 --- [qtp1197721383-36320] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-11-28 20:35:38.438  WARN 794 --- [qtp1197721383-36320] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
