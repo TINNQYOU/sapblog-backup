@@ -196,3 +196,10 @@ run.halo.app.exception.BadRequestException: 登录状态已失效，请重新登
 2022-12-02 11:49:49.140  WARN 988172 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
 2022-12-02 11:49:49.143  WARN 988172 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
 2022-12-02 11:49:49.144  WARN 988172 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2022-12-02 13:00:08.628  INFO 988172 --- [SpringApplicationShutdownHook] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@4eed46ee{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+2022-12-02 13:00:08.642  INFO 988172 --- [SpringApplicationShutdownHook] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-12-02 13:00:08.648  INFO 988172 --- [SpringApplicationShutdownHook] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-02 13:00:08.655  INFO 988172 --- [SpringApplicationShutdownHook] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@401788d5{application,/,[file:///tmp/jetty-docbase.8090.8086520360163726158/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],STOPPED}
+2022-12-02 13:00:08.728  INFO 988172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 13:00:08.735  INFO 988172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 13:00:08.739  INFO 988172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
