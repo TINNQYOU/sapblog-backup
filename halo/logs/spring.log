@@ -1,19 +1,2 @@
-2022-12-07 03:44:08.601  WARN 2419601 --- [qtp1800693087-94] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-12-07 06:59:36.101  WARN 2419601 --- [qtp1800693087-259] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-12-07 09:52:29.132  WARN 2419601 --- [qtp1800693087-79] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-12-07 10:17:16.336  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access.token.b2c5ae576c054683b4ea238e9f745067] has been expired
-2022-12-07 10:17:16.338  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access_token.1] has been expired
-2022-12-07 13:13:26.466  WARN 2419601 --- [qtp1800693087-399] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.466  WARN 2419601 --- [qtp1800693087-222] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.469 ERROR 2419601 --- [qtp1800693087-222] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:13:26.468 ERROR 2419601 --- [qtp1800693087-399] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:13:26.469  WARN 2419601 --- [qtp1800693087-223] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.469 ERROR 2419601 --- [qtp1800693087-223] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:13:26.493  WARN 2419601 --- [qtp1800693087-259] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.493 ERROR 2419601 --- [qtp1800693087-259] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:13:26.499  WARN 2419601 --- [qtp1800693087-94] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.499 ERROR 2419601 --- [qtp1800693087-94] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:13:26.502  WARN 2419601 --- [qtp1800693087-79] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [106.153.186.220]
-2022-12-07 13:13:26.502 ERROR 2419601 --- [qtp1800693087-79] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Token 已过期或不存在], status: [401 UNAUTHORIZED], data: [b2c5ae576c054683b4ea238e9f745067]
-2022-12-07 13:14:16.336  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_public run.halo.app.security.token.AuthToken run.halo.app.controller.admin.api.AdminController.refresh(java.lang.String)] has been expired
-2022-12-07 21:52:57.419  WARN 2419601 --- [qtp1800693087-94] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-12-08 00:26:15.594  WARN 2419601 --- [qtp1800693087-94] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-12-08 04:54:58.803  WARN 2419601 --- [qtp1800693087-259] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
