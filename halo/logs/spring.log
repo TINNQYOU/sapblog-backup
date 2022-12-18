@@ -1,2 +1,1 @@
-2022-12-17 16:51:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access.token.4684d18979f14cd1b6359313e18f474f] has been expired
-2022-12-17 16:51:16.347  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access_token.1] has been expired
+2022-12-19 01:41:53.067  WARN 2419601 --- [qtp1800693087-10276] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
