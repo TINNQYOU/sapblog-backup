@@ -1,4 +1,3 @@
-2022-12-25 01:58:06.645  WARN 2419601 --- [qtp1800693087-16377] o.s.w.s.r.ResourceHttpRequestHandler     : "Path with "WEB-INF" or "META-INF": [s/1373e2539313e273e2735313/_/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties]"
-2022-12-25 02:27:17.083  WARN 2419601 --- [qtp1800693087-17676] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-12-25 02:27:17.656  WARN 2419601 --- [qtp1800693087-17674] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2022-12-25 18:30:45.758  WARN 2419601 --- [qtp1800693087-14228] o.s.w.s.r.ResourceHttpRequestHandler     : "Path with "WEB-INF" or "META-INF": [s/1373e2539313e273e2735313/_/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties]"
+2022-12-26 05:59:27.362  WARN 2419601 --- [qtp1800693087-18337] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-12-26 09:45:49.043  WARN 2419601 --- [qtp1800693087-18365] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-12-26 09:45:49.930  WARN 2419601 --- [qtp1800693087-18620] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
