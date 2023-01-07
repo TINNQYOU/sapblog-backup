@@ -1,4 +1,1 @@
-2023-01-06 13:07:15.703  WARN 2419601 --- [qtp1800693087-28475] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-01-06 13:14:16.342  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.refresh.token.e1daf3ea56c7424fa06a2eccc1515d24] has been expired
-2023-01-06 19:22:44.982  WARN 2419601 --- [qtp1800693087-28495] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-01-06 20:21:46.500  WARN 2419601 --- [qtp1800693087-28787] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-01-07 08:22:10.887  WARN 2419601 --- [qtp1800693087-28787] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
