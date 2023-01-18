@@ -1,3 +1,1 @@
-2023-01-17 14:18:45.579  WARN 2419601 --- [qtp1800693087-31991] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-01-17 19:33:45.603  WARN 2419601 --- [qtp1800693087-30984] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [40.77.189.28]
-2023-01-17 19:33:45.606 ERROR 2419601 --- [qtp1800693087-30984] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Missing API access key], status: [401 UNAUTHORIZED], data: [null]
+2023-01-18 01:01:06.108  WARN 2419601 --- [qtp1800693087-30794] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
