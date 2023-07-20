@@ -1,3 +1,1 @@
-2023-07-19 00:50:03.068  WARN 2419601 --- [qtp1800693087-213245] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-07-19 20:05:23.930  WARN 2419601 --- [qtp1800693087-214663] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-07-19 22:51:49.802  WARN 2419601 --- [qtp1800693087-213245] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-07-20 08:26:37.903  WARN 2419601 --- [qtp1800693087-213245] org.eclipse.jetty.server.Request         : org.eclipse.jetty.util.Utf8Appendable$NotUtf8Exception: Not valid UTF8! byte 83 in state 0
