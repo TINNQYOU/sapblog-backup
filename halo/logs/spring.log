@@ -1,20 +1,2 @@
-2023-08-18 01:58:03.259  WARN 2419601 --- [qtp1800693087-242087] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-08-18 06:02:46.772  WARN 2419601 --- [qtp1800693087-241179] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2023-08-18 06:22:12.858  WARN 2419601 --- [qtp1800693087-243700] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [3.21.126.190]
-2023-08-18 06:22:12.855  WARN 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [3.21.126.190]
-2023-08-18 06:22:12.865 ERROR 2419601 --- [qtp1800693087-243700] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [未登录，请登录后访问], status: [401 UNAUTHORIZED], data: [null]
-2023-08-18 06:22:12.865 ERROR 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [未登录，请登录后访问], status: [401 UNAUTHORIZED], data: [null]
-2023-08-18 06:22:13.084  WARN 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [3.21.126.190]
-2023-08-18 06:22:13.084 ERROR 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [未登录，请登录后访问], status: [401 UNAUTHORIZED], data: [null]
-2023-08-18 06:22:13.124  WARN 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [3.21.126.190]
-2023-08-18 06:22:13.124 ERROR 2419601 --- [qtp1800693087-241181] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [未登录，请登录后访问], status: [401 UNAUTHORIZED], data: [null]
-2023-08-18 06:22:13.312  WARN 2419601 --- [qtp1800693087-244030] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [content../.git/config]"
-2023-08-18 06:22:13.317  WARN 2419601 --- [qtp1800693087-241179] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [images../.git/config]"
-2023-08-18 06:22:13.320  WARN 2419601 --- [qtp1800693087-244031] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [js../.git/config]"
-2023-08-18 06:22:13.323  WARN 2419601 --- [qtp1800693087-243700] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [img../.git/config]"
-2023-08-18 06:22:13.324  WARN 2419601 --- [qtp1800693087-241181] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [events../.git/config]"
-2023-08-18 06:22:13.374  WARN 2419601 --- [qtp1800693087-244032] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [css../.git/config]"
-2023-08-18 06:22:13.387  WARN 2419601 --- [qtp1800693087-241151] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [lib../.git/config]"
-2023-08-18 06:22:13.389  WARN 2419601 --- [qtp1800693087-244033] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [static../.git/config]"
-2023-08-18 06:22:13.392  WARN 2419601 --- [qtp1800693087-244029] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [assets../.git/config]"
-2023-08-18 06:22:13.392  WARN 2419601 --- [qtp1800693087-236756] o.s.w.s.r.ResourceHttpRequestHandler     : "Path contains "../" after call to StringUtils#cleanPath: [media../.git/config]"
+2023-08-19 05:57:53.816  WARN 2419601 --- [qtp1800693087-244035] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-19 05:58:18.942  WARN 2419601 --- [qtp1800693087-244035] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
