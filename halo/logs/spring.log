@@ -31,3 +31,5 @@
 2023-12-15 00:21:58.447  WARN 2419601 --- [qtp1800693087-356058] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
 2023-12-15 00:22:05.063  WARN 2419601 --- [qtp1800693087-352491] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
 2023-12-15 00:22:10.604  WARN 2419601 --- [qtp1800693087-356058] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-12-15 06:52:44.835  WARN 2419601 --- [qtp1800693087-352491] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-12-15 09:32:59.808  WARN 2419601 --- [qtp1800693087-356883] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
