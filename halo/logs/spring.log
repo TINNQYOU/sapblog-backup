@@ -1,7 +1,2 @@
-2024-01-24 02:13:10.305  WARN 2419601 --- [qtp1800693087-394006] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:14.211  WARN 2419601 --- [qtp1800693087-394007] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:17.303  WARN 2419601 --- [qtp1800693087-394007] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:17.315  WARN 2419601 --- [qtp1800693087-391961] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:18.330  WARN 2419601 --- [qtp1800693087-394007] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:20.446  WARN 2419601 --- [qtp1800693087-394007] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-01-24 08:21:20.452  WARN 2419601 --- [qtp1800693087-391961] org.eclipse.jetty.http.HttpParser        : Header is too large 8193>8192
+2024-01-25 00:29:25.265  WARN 2419601 --- [qtp1800693087-394008] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-01-25 06:45:45.659  WARN 2419601 --- [qtp1800693087-391961] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
