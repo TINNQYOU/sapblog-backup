@@ -1,5 +1,9 @@
-2024-02-02 05:19:11.718  WARN 2419601 --- [qtp1800693087-402033] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-02-02 05:25:55.968  WARN 2419601 --- [qtp1800693087-402033] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-02-02 11:09:16.341  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
-2024-02-02 11:09:16.344  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
-2024-02-02 11:11:16.072  WARN 2419601 --- [qtp1800693087-406946] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-02-03 00:45:31.506  WARN 2419601 --- [qtp1800693087-395490] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-02-03 02:51:45.558  WARN 2419601 --- [qtp1800693087-395490] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-02-03 05:59:23.065  WARN 2419601 --- [qtp1800693087-404223] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-02-03 06:10:11.191  WARN 2419601 --- [qtp1800693087-404554] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [52.15.196.77]
+2024-02-03 06:10:11.191 ERROR 2419601 --- [qtp1800693087-404554] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Missing API access key], status: [401 UNAUTHORIZED], data: [null]
+2024-02-03 06:10:15.557  WARN 2419601 --- [qtp1800693087-404223] .s.h.DefaultAuthenticationFailureHandler : Handle unsuccessful authentication, ip: [52.15.196.77]
+2024-02-03 06:10:15.557 ERROR 2419601 --- [qtp1800693087-404223] .s.h.DefaultAuthenticationFailureHandler : Authentication failure: [Missing API access key], status: [401 UNAUTHORIZED], data: [null]
+2024-02-03 11:09:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access.token.b8bb7ad044f641c8b71b76c685b87d43] has been expired
+2024-02-03 11:09:16.338  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [halo.admin.access_token.1] has been expired
