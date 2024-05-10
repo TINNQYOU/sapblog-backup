@@ -1,20 +1,20 @@
-2024-05-08 03:14:03.452  WARN 2419601 --- [qtp1800693087-492204] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:21:35.947  WARN 2419601 --- [qtp1800693087-496624] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:21:36.243  WARN 2419601 --- [qtp1800693087-496625] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:21:41.797  WARN 2419601 --- [qtp1800693087-496624] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:22:01.900  WARN 2419601 --- [qtp1800693087-496625] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:22:31.901  WARN 2419601 --- [qtp1800693087-492205] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:23:01.415  WARN 2419601 --- [qtp1800693087-496625] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:23:01.573  WARN 2419601 --- [qtp1800693087-492205] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 07:23:02.158  WARN 2419601 --- [qtp1800693087-496625] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 16:35:13.868  WARN 2419601 --- [qtp1800693087-492205] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:24.850  WARN 2419601 --- [qtp1800693087-499794] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:26.281  WARN 2419601 --- [qtp1800693087-499794] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:30.794  WARN 2419601 --- [qtp1800693087-499794] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:31.413  WARN 2419601 --- [qtp1800693087-500100] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:32.043  WARN 2419601 --- [qtp1800693087-500100] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:34.322  WARN 2419601 --- [qtp1800693087-499794] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:34:39.956  WARN 2419601 --- [qtp1800693087-500100] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 17:35:00.522  WARN 2419601 --- [qtp1800693087-500100] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 19:36:45.876  WARN 2419601 --- [qtp1800693087-500100] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2024-05-08 20:18:04.085  WARN 2419601 --- [qtp1800693087-496624] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-05-10 09:54:16.341  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_precheck] has been expired
+2024-05-10 09:54:16.344  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [cache_lock_login_auth] has been expired
+2024-05-10 09:56:04.634  INFO 2419601 --- [qtp1800693087-501746] r.h.a.c.admin.api.BackupController       : Try to download exported data file: [halo-data-export-2024-05-10-09-55-55--1445868424.json]
+2024-05-10 10:01:16.336  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-ddbe1e0276f844dd87ba5a22a809cf83] has been expired
+2024-05-10 10:01:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-6f052577cfb5497ca3aafc838ae5a844] has been expired
+2024-05-10 10:01:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-42db0cb92c3545788e1781f4f692a6b9] has been expired
+2024-05-10 10:01:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-8b674b9c2b51475bb0019c3a065e5e28] has been expired
+2024-05-10 10:01:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-1568333dbda941bc9e12a1fe0ee018f6] has been expired
+2024-05-10 10:01:16.337  WARN 2419601 --- [Timer-0] run.halo.app.cache.AbstractCacheStore    : Cache key: [OTT-fe28cf468f28402caf34bdf388a6a052] has been expired
+2024-05-10 10:15:48.158  INFO 2419601 --- [Thread-38] run.halo.app.utils.FileUtils             : Deleting [/tmp/halo17343176136827171867]
+2024-05-10 10:15:48.172  INFO 2419601 --- [Thread-19] run.halo.app.utils.FileUtils             : Deleting [/tmp/halo14591181540438771847]
+2024-05-10 10:15:48.231  INFO 2419601 --- [SpringApplicationShutdownHook] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@41a90fa8{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+2024-05-10 10:15:48.232  INFO 2419601 --- [SpringApplicationShutdownHook] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2024-05-10 10:15:48.256  INFO 2419601 --- [SpringApplicationShutdownHook] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-10 10:15:48.265  INFO 2419601 --- [SpringApplicationShutdownHook] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2bdab835{application,/,[file:///tmp/jetty-docbase.8090.17614764002556738764/, jar:file:/home/halo/app/halo.jar!/BOOT-INF/lib/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],STOPPED}
+2024-05-10 10:15:48.266  INFO 2419601 --- [Thread-19] run.halo.app.utils.FileUtils             : Deleted [/tmp/halo14591181540438771847] successfully
+2024-05-10 10:15:48.266  INFO 2419601 --- [Thread-38] run.halo.app.utils.FileUtils             : Deleted [/tmp/halo17343176136827171867] successfully
+2024-05-10 10:15:48.303  INFO 2419601 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-10 10:15:48.310  INFO 2419601 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-10 10:15:48.322  INFO 2419601 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
